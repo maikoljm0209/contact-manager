@@ -1,0 +1,28 @@
+/* Cambia el color de las líneas divisorias de la tabla a azul */
+  #personal-information .table-group-divider, tr {
+    border-top: 2px solid #0d6efd !important; /* Azul Bootstrap */
+  }
+
+  /* tooltip personalizado */
+.tooltip-inner {
+  background-color: #0d6efd; /* Azul Bootstrap */
+  color: #fff;
+  font-weight: 500;
+}
+.tooltip-arrow {
+  color: #0d6efd;
+}
+/* fin de tooltip personalizado */
+
+html, body {
+      height: 100%; /* importante */
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* organizamos en columna */
+}
+
+main {
+  flex: 1; /* ocupa todo el espacio disponible */
+}
